@@ -248,11 +248,6 @@ h1,h2{margin:0 0 6px 0;}
   z-index: 10;
 }
 
-/* responsive small screens */
-@media (max-width:420px){
-  .phone-shell{width:94vw;height:92vh}
-}
-
 /* =========================================
    MUNICIPALITIES (PILL LAYOUT)
    ========================================= */
@@ -663,4 +658,5 @@ html, body {
     font-weight: bold;
     display: none; /* hidden until install is available */
 }
+
 
