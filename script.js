@@ -2067,4 +2067,3 @@ window.addEventListener("appinstalled", () => {
   console.log("KPMPNGN installed!");
   alert("KPMPNGN has been installed!");
 });
-
