@@ -47,6 +47,9 @@ body{
 
 /* ---- NEW: DARK OVERLAY FOR READABILITY ---- */
 /* This creates a semi-transparent layer over your background image so text is easy to read */
+.phone-shell {
+  width: 480px;
+  height: 660px;
 
   /* ⭐ 1. IMAGE BACKGROUND (Change this URL to your own image if needed) ⭐ */
   background-image: url('https://www.vacationhive.com/wp-content/uploads/2021/12/christmas-spots-main-banner.png');
@@ -246,6 +249,11 @@ h1,h2{margin:0 0 6px 0;}
   border-radius:8px;
   cursor:pointer;
   z-index: 10;
+}
+
+/* responsive small screens */
+@media (max-width:420px){
+  .phone-shell{width:94vw;height:92vh}
 }
 
 /* =========================================
@@ -659,4 +667,9 @@ html, body {
     display: none; /* hidden until install is available */
 }
 
-
+/* =========================================
+   APP HIDDEN CLASS - CRITICAL FOR LOGIN FLOW
+   ========================================= */
+.app-hidden {
+  display: none !important;
+}
