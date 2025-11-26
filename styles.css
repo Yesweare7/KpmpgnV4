@@ -47,9 +47,6 @@ body{
 
 /* ---- NEW: DARK OVERLAY FOR READABILITY ---- */
 /* This creates a semi-transparent layer over your background image so text is easy to read */
-.phone-shell {
-  width: 480px;
-  height: 660px;
 
   /* ⭐ 1. IMAGE BACKGROUND (Change this URL to your own image if needed) ⭐ */
   background-image: url('https://www.vacationhive.com/wp-content/uploads/2021/12/christmas-spots-main-banner.png');
@@ -666,3 +663,4 @@ html, body {
     font-weight: bold;
     display: none; /* hidden until install is available */
 }
+
